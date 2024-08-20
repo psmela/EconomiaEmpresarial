@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(20, 104, 104);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btnEditar, .btnEliminar {
+    margin-left: 5px;
+}
+
+#ordenarBoton {
+    width: 100%;
+}
